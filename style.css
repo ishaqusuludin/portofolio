@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/bg.png") no-repeat center;
+    background: url("images/bg-2.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -261,6 +261,7 @@ section .title::after{
 .services {
     color:#fff;
     background: #111;
+
 }
 .services .title::before {
     background: #fff;
@@ -381,18 +382,19 @@ section .title::after{
 
 /* teams section styling */
 .projects {
-    background: #fff;
-    color: #111;
+    background: #111;
+    color: #fff;
 }
 .projects .title::before{
-    background: #111;
+    background: #fff;
 }
 .projects .title::after{
-    background: #fff;
+    background: #111;
     content: "what i build";
 }
 .projects .carousel .card{
-    background: #eee;
+    background: #222;
+    color: #fff;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -426,7 +428,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .projects .carousel .card:hover img{
-    border-color: #fff;
+    border-color: #111;
 }
 .owl-dots{
     text-align: center;
@@ -452,20 +454,20 @@ section .title::after{
 
 /* contact section styling */
 .contact {
-    background: #111;
-    color: #fff;
+    /* background: #111; */
+    color: #111;
 }
 .contact .title::before {
-    background: #fff;
+    background: #111;
 }
 .contact .title::after{
     content: "get in touch";
-    background: #111;
+    background: #fff;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
-    background: #222;
-    color: #fff;
+    background: #eee;
+    color: #111;
     border-radius: 6px;
     padding: 25px 35px;
     overflow: hidden;
@@ -498,7 +500,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #fff;
+    color: #111;
 }
 .contact .right form .fields{
     display: flex;
@@ -520,7 +522,7 @@ section .title::after{
 .contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid #111;
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
@@ -541,7 +543,7 @@ section .title::after{
   align-items: center;
 }
 .right form .button-area button{
-  color: #fff;
+  color: #111;
   display: block;
   width: 160px!important;
   height: 45px;
